@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'DimboItalic';
+    src: url('../fonts/DimboItalic.ttf');
+}
+
+@font-face {
+    font-family: 'TitanOne';
+    src: url('../fonts/TitanOne.ttf');
+}
+
+body {
+    padding-top: 2.5%;
+    background-color: #0b6f96;
+}
+
+.resolutionMessage {
+    display: none;
+    font-family: 'DimboItalic';
+    font-size: 30px;
+    color: black;
+    position: relative;
+    text-align: center;
+    border-style:solid;
+    border-color:BLACK;
+    background: YELLOW;
+}
+
+.loadingAssetsMessage {
+    display: none;
+    font-family: 'DimboItalic';
+    font-size: 30px;
+    color: black;
+    position: relative;
+    text-align: center;
+    border-style:solid;
+    border-color:BLACK;
+    background: YELLOW;
+}
+
+canvas {
+    background-color: #0b6f96;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.credits {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.credits h3:nth-child(1) {
+    font-family: 'TitanOne';
+    color: black;
+    position: relative;
+    text-align: center;
+}
+
+.credits h3:nth-child(2) {
+    font-family: 'DimboItalic';
+    color: black;
+    position: relative;
+    text-align: center;
+}
